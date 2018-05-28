@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		EDD5F26720BC003700B93F4F /* SSFormCells.h in Headers */ = {isa = PBXBuildFile; fileRef = EDD5F26520BC003700B93F4F /* SSFormCells.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDD5F26F20BC006200B93F4F /* Cells.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDD5F26E20BC006200B93F4F /* Cells.storyboard */; };
+		EDD5F27220BC01AB00B93F4F /* SSFormSwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD5F27120BC01AB00B93F4F /* SSFormSwitchCell.swift */; };
+		EDD5F27420BC047100B93F4F /* SSFormSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD5F27320BC047100B93F4F /* SSFormSliderCell.swift */; };
+		EDD5F27620BC0B7400B93F4F /* SSFormTextEditCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD5F27520BC0B7400B93F4F /* SSFormTextEditCell.swift */; };
+		EDD5F27820BC108900B93F4F /* SSFormStepperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD5F27720BC108900B93F4F /* SSFormStepperCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EDD5F26220BC003700B93F4F /* SSFormCells.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSFormCells.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDD5F26520BC003700B93F4F /* SSFormCells.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSFormCells.h; sourceTree = "<group>"; };
 		EDD5F26620BC003700B93F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDD5F26E20BC006200B93F4F /* Cells.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cells.storyboard; sourceTree = "<group>"; };
+		EDD5F27120BC01AB00B93F4F /* SSFormSwitchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSFormSwitchCell.swift; sourceTree = "<group>"; };
+		EDD5F27320BC047100B93F4F /* SSFormSliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSFormSliderCell.swift; sourceTree = "<group>"; };
+		EDD5F27520BC0B7400B93F4F /* SSFormTextEditCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSFormTextEditCell.swift; sourceTree = "<group>"; };
+		EDD5F27720BC108900B93F4F /* SSFormStepperCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSFormStepperCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +56,31 @@
 		EDD5F26420BC003700B93F4F /* SSFormCells */ = {
 			isa = PBXGroup;
 			children = (
+				EDD5F26D20BC004F00B93F4F /* UI */,
 				EDD5F26520BC003700B93F4F /* SSFormCells.h */,
 				EDD5F26620BC003700B93F4F /* Info.plist */,
 			);
 			path = SSFormCells;
+			sourceTree = "<group>";
+		};
+		EDD5F26D20BC004F00B93F4F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				EDD5F26E20BC006200B93F4F /* Cells.storyboard */,
+				EDD5F27020BC019100B93F4F /* Cells */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		EDD5F27020BC019100B93F4F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EDD5F27120BC01AB00B93F4F /* SSFormSwitchCell.swift */,
+				EDD5F27320BC047100B93F4F /* SSFormSliderCell.swift */,
+				EDD5F27520BC0B7400B93F4F /* SSFormTextEditCell.swift */,
+				EDD5F27720BC108900B93F4F /* SSFormStepperCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +126,7 @@
 				TargetAttributes = {
 					EDD5F26120BC003700B93F4F = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -120,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDD5F26F20BC006200B93F4F /* Cells.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +163,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDD5F27420BC047100B93F4F /* SSFormSliderCell.swift in Sources */,
+				EDD5F27620BC0B7400B93F4F /* SSFormTextEditCell.swift in Sources */,
+				EDD5F27220BC01AB00B93F4F /* SSFormSwitchCell.swift in Sources */,
+				EDD5F27820BC108900B93F4F /* SSFormStepperCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +296,7 @@
 		EDD5F26B20BC003700B93F4F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -276,6 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.shinkarenkos.SSFormCells;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +323,7 @@
 		EDD5F26C20BC003700B93F4F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
