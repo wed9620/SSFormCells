@@ -25,7 +25,7 @@ Then create cell in code (cellForRowAtIndexPath)
 ![alt text](https://ibb.co/bJhJFy)
 
 And if you need you can "subscribe" on changes from cell;
-![alt text](https://ibb.co/ktm0TJ)
+![alt text](https://thumb.ibb.co/ktm0TJ/Screen_Shot_2018_05_29_at_12_53_05_PM.png)
 ![alt text](https://ibb.co/j2XeNd)
 
 Ok, here you are!
