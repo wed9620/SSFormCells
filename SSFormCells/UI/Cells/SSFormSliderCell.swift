@@ -15,9 +15,9 @@ public protocol SSFormSliderCellDelegate {
 
 public class SSFormSliderCell: UITableViewCell {
 
-    @IBOutlet weak var headerLabel: UILabel!
-    @IBOutlet weak var valueSlider: UISlider!
-    var delegate: SSFormSliderCellDelegate?
+    @IBOutlet public weak var headerLabel: UILabel!
+    @IBOutlet public weak var valueSlider: UISlider!
+    public var delegate: SSFormSliderCellDelegate?
     
     @IBAction func valueSliderChanged(_ sender: UISlider) {
 

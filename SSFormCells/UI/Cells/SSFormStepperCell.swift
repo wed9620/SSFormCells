@@ -13,12 +13,12 @@ public protocol SSFormStepperCellDelegate {
     func stepperValueChanged(value: Int)
 }
 
-class SSFormStepperCell: UITableViewCell {
+public class SSFormStepperCell: UITableViewCell {
 
-    @IBOutlet weak var headerLabel: UILabel!
-    @IBOutlet weak var valueLabel: UILabel!
-    @IBOutlet weak var valueStepper: UIStepper!
-    var delegate: SSFormStepperCellDelegate?
+    @IBOutlet public weak var headerLabel: UILabel!
+    @IBOutlet public weak var valueLabel: UILabel!
+    @IBOutlet public weak var valueStepper: UIStepper!
+    public var delegate: SSFormStepperCellDelegate?
 
     @IBAction func stepperValueChanged(_ sender: UIStepper) {
 

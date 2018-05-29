@@ -10,9 +10,9 @@ import UIKit
 
 public class SSFormTextEditCell: UITableViewCell {
 
-    var valueTextFieldDelegate: UITextFieldDelegate?
-    @IBOutlet weak var headerLabel: UILabel!
-    @IBOutlet weak var valueTextField: UITextField!
+    public var valueTextFieldDelegate: UITextFieldDelegate?
+    @IBOutlet public weak var headerLabel: UILabel!
+    @IBOutlet public weak var valueTextField: UITextField!
     
     override public func awakeFromNib() {
 

@@ -15,9 +15,9 @@ public protocol SSFormSwitchCellDelegate {
 
 public class SSFormSwitchCell: UITableViewCell {
     
-    @IBOutlet weak var headerLabel: UILabel!
-    @IBOutlet weak var valueSwitch: UISwitch!
-    var delegate: SSFormSwitchCellDelegate?
+    @IBOutlet public weak var headerLabel: UILabel!
+    @IBOutlet public weak var valueSwitch: UISwitch!
+    public var delegate: SSFormSwitchCellDelegate?
 
     @IBAction func valueSwitchStateChanged(_ sender: UISwitch) {
 
