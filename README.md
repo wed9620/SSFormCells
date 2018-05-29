@@ -36,4 +36,4 @@ Ok, here you are!<br />
 
 ## Author
 
-wed9620, sergey.shinkarenko@oxagile.com
+wed9620
