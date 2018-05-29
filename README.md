@@ -15,6 +15,21 @@ it, simply add the following line to your Podfile:
 pod 'SSFormCells'
 ```
 
+## Usage
+
+First you have to open Cells.storyboard, copy needed cells and paste it to your table view.
+![alt text](https://ibb.co/eAfuoJ)
+
+Then create cell in code (cellForRowAtIndexPath)
+
+![alt text](https://ibb.co/bJhJFy)
+
+And if you need you can "subscribe" on changes from cell;
+![alt text](https://ibb.co/ktm0TJ)
+![alt text](https://ibb.co/j2XeNd)
+
+Ok, here you are!
+
 ## Author
 
 wed9620, sergey.shinkarenko@oxagile.com
