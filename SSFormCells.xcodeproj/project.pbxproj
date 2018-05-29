@@ -13,6 +13,7 @@
 		EDD5F27420BC047100B93F4F /* SSFormSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD5F27320BC047100B93F4F /* SSFormSliderCell.swift */; };
 		EDD5F27620BC0B7400B93F4F /* SSFormTextEditCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD5F27520BC0B7400B93F4F /* SSFormTextEditCell.swift */; };
 		EDD5F27820BC108900B93F4F /* SSFormStepperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD5F27720BC108900B93F4F /* SSFormStepperCell.swift */; };
+		EDD5F2A320BD3E2100B93F4F /* SSFormCellIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD5F2A220BD3E2100B93F4F /* SSFormCellIdentifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EDD5F27320BC047100B93F4F /* SSFormSliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSFormSliderCell.swift; sourceTree = "<group>"; };
 		EDD5F27520BC0B7400B93F4F /* SSFormTextEditCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSFormTextEditCell.swift; sourceTree = "<group>"; };
 		EDD5F27720BC108900B93F4F /* SSFormStepperCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSFormStepperCell.swift; sourceTree = "<group>"; };
+		EDD5F2A220BD3E2100B93F4F /* SSFormCellIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSFormCellIdentifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				EDD5F27320BC047100B93F4F /* SSFormSliderCell.swift */,
 				EDD5F27520BC0B7400B93F4F /* SSFormTextEditCell.swift */,
 				EDD5F27720BC108900B93F4F /* SSFormStepperCell.swift */,
+				EDD5F2A220BD3E2100B93F4F /* SSFormCellIdentifiers.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			files = (
 				EDD5F27420BC047100B93F4F /* SSFormSliderCell.swift in Sources */,
 				EDD5F27620BC0B7400B93F4F /* SSFormTextEditCell.swift in Sources */,
+				EDD5F2A320BD3E2100B93F4F /* SSFormCellIdentifiers.swift in Sources */,
 				EDD5F27220BC01AB00B93F4F /* SSFormSwitchCell.swift in Sources */,
 				EDD5F27820BC108900B93F4F /* SSFormStepperCell.swift in Sources */,
 			);
