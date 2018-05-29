@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SSFormTextEditCell: UITableViewCell {
+public class SSFormTextEditCell: UITableViewCell {
 
     var valueTextFieldDelegate: UITextFieldDelegate?
     @IBOutlet weak var headerLabel: UILabel!

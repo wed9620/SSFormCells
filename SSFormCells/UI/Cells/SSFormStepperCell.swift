@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol SSFormStepperCellDelegate {
+public protocol SSFormStepperCellDelegate {
 
     func stepperValueChanged(value: Int)
 }

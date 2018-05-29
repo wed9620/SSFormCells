@@ -8,7 +8,7 @@
 
 import UIKit
 
-let SSFormSwitchCellIdentifier =    "SSFormSwitchCell"
-let SSFormSliderCellIdentifier =    "SSFormSliderCell"
-let SSFormTextEditCellIdentifier =  "SSFormTextEditCell"
-let SSFormStepperCellIdentifier =   "SSFormStepperCell"
+public let SSFormSwitchCellIdentifier =    "SSFormSwitchCell"
+public let SSFormSliderCellIdentifier =    "SSFormSliderCell"
+public let SSFormTextEditCellIdentifier =  "SSFormTextEditCell"
+public let SSFormStepperCellIdentifier =   "SSFormStepperCell"

@@ -8,12 +8,12 @@
 
 import UIKit
 
-protocol SSFormSliderCellDelegate {
+public protocol SSFormSliderCellDelegate {
 
     func valueSliderChanged(value:Float)
 }
 
-class SSFormSliderCell: UITableViewCell {
+public class SSFormSliderCell: UITableViewCell {
 
     @IBOutlet weak var headerLabel: UILabel!
     @IBOutlet weak var valueSlider: UISlider!

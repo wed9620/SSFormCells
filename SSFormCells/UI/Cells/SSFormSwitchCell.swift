@@ -8,12 +8,12 @@
 
 import UIKit
 
-protocol SSFormSwitchCellDelegate {
+public protocol SSFormSwitchCellDelegate {
 
     func valueSwitchStateChanged(checked: Bool);
 }
 
-class SSFormSwitchCell: UITableViewCell {
+public class SSFormSwitchCell: UITableViewCell {
     
     @IBOutlet weak var headerLabel: UILabel!
     @IBOutlet weak var valueSwitch: UISwitch!
