@@ -14,7 +14,7 @@ public class SSFormTextEditCell: UITableViewCell {
     @IBOutlet weak var headerLabel: UILabel!
     @IBOutlet weak var valueTextField: UITextField!
     
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
 
         valueTextField.delegate = valueTextFieldDelegate
     }
